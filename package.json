@@ -1,0 +1,36 @@
+{
+"name": "pluralsight-react-native",
+  "version": "0.0.1",
+  "description": "Learn how to use your existing JavaScript skills to build highly-performant native apps for both iOS and Android.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fxlemire/pluralsight-react-native.git"
+  },
+  "author": "Hendrik Swanepoel, Francois-Xavier Lemire",
+  "license": "ISC",
+  "private": true,
+  "bugs": {
+    "url": "https://github.com/fxlemire/pluralsight-react-native/issues"
+  },
+  "homepage": "https://github.com/fxlemire/pluralsight-react-native#readme",
+  "devDependencies": {
+    "babel-eslint": "^7.1.1",
+    "eslint": "^3.12.2",
+    "eslint-config-airbnb": "^13.0.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^2.2.3",
+    "eslint-plugin-react": "^6.8.0"
+  },
+  "dependencies": {
+    "exponent": "~12.0.3",
+    "@exponent/vector-icons": "~2.0.3",
+    "react": "~15.3.2",
+    "react-native": "git+https://github.com/exponentjs/react-native#sdk-12.0.0",
+    "react-native-swipeout": "^2.0.12",
+    "redux": "^3.6.0"
+  }
+}
